@@ -11,11 +11,14 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Navbar/>
+      <>
       <Route exact path="/" component={Home} />
         <Route path="/skills" component={Skills} />
         <Route path="/projects" component={Project} />
         <Route path="/contact" component={Contact} />
+        </>
       </BrowserRouter>
+      
     </div>
   );
 }
