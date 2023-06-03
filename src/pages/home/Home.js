@@ -5,7 +5,7 @@ import '../home/home.css'
     return (
        
         <div className='cont'>
-            <div className='left'>
+            {/* <div className='left'>
             <span>Hi, I'm</span>
             <h1 className="h1">Mortadha <br></br>
              Abidi</h1>
@@ -18,7 +18,7 @@ import '../home/home.css'
             </div>
             <div className='right'>
             <img  src="https://wp.shsarker.xyz/dora/wp-content/uploads/2023/04/hero-person-img.png" alt=""></img>
-            </div>
+            </div> */}
         </div>
     )
 }
